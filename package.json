@@ -1,0 +1,25 @@
+{
+  "name": "discord-gif-bot",
+  "version": "1.0.0",
+  "description": "Simple discord gif bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Makinloot/discord-gif-bot.git"
+  },
+  "author": "Tornike Epitashvili",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Makinloot/discord-gif-bot/issues"
+  },
+  "homepage": "https://github.com/Makinloot/discord-gif-bot#readme",
+  "dependencies": {
+    "discord.js": "^13.7.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "node-fetch": "^3.2.4"
+  }
+}
