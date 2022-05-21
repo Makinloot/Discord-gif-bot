@@ -1,8 +1,12 @@
+const express = require('express');
+const app = express();
 require('dotenv').config();
 const { Client, Intents } = require('discord.js');
 const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });
 const fetch = require('node-fetch');
 
+const port = process.env.PORT || 3000;
+app.listen(port, () => console.log(`running at ${port}`));
 require('dotenv').config();
 
 client.login(process.env.BOTKEY); // makes bot online
